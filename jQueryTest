@@ -50,11 +50,14 @@
 
             $(".rating-circle").click(function() {
 
-                $(this).prevAll().addClass("rating-chosen");
+              $(this).prevAll().addClass("rating-chosen");
+                $(this).addClass("rating-chosen");
+
             });
 
            $(".rating-circle").hover(function() {
                        $(this).prevAll().addClass("rating-hover");
+                       $(this).addClass("rating-hover");
             });
 
             $(".rating-circle").mouseout(function() {
