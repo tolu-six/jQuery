@@ -62,6 +62,7 @@
 
             $(".rating-circle").mouseout(function() {
                 $(this).prevAll().removeClass("rating-hover");
+                $(this).removeClass("rating-hover");
             });
         })
     </script>
